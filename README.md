@@ -3,7 +3,7 @@
 Program functions:
 Insert in the file class-database.php your DB and create the table in the DB with the following characteristics:
 
-Create Table ftp_access
+Create Table ftp_access </br>
  ID int AUTO_INCREMENT Primary Key
  nickname VARCHAR(60)
  domain VARCHAR(255)
