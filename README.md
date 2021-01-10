@@ -3,8 +3,8 @@
 Program functions: </br>
 Insert in the file <pre><b>class-database.php</b></pre> your Database and create the table with the following characteristics:
 
-Create Table ftp_access </br>
- <pre><b>ID</b> int AUTO_INCREMENT Primary Key </br>
+ <pre>Create Table ftp_access </br>
+ <b>ID</b> int AUTO_INCREMENT Primary Key </br>
  <b>nickname</b> VARCHAR(60) </br>
  <b>domain</b> VARCHAR(255) </br>
  <b>ftp</b> VARCHAR(60) </br>
