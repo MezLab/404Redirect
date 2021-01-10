@@ -1,7 +1,7 @@
 # 404Redirect
 
 Program functions: </br>
-Insert in the file <pre><b>class-database.php</b></pre> your DB </br> and create the table in the DB with the following characteristics:
+Insert in the file <pre><b>class-database.php</b></pre> your Database and create the table with the following characteristics:
 
 Create Table ftp_access </br>
  <pre><b>ID</b> int AUTO_INCREMENT Primary Key </br>
