@@ -1,0 +1,147 @@
+        * {
+            font-family: 'Roboto', 'Apple SD Gothic Neo';
+            font-weight: lighter;
+        }
+        body{
+            margin: 0;
+        }
+
+        h1 span {
+            font-weight: bold !important;
+        }
+        form{
+            text-align: center;
+        }
+        form label,
+        form input {
+            display: block;
+            text-align: left;
+        }
+
+        form label {
+            font-weight: bold !important;
+            color: slateblue;
+        }
+
+        form input,
+        form select,
+        form button{
+            width: 400px;
+            padding: 10px 20px;
+            margin: 10px 0px 20px 0px;
+            border: 2px solid #000;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button#add,
+        button#rmv{
+            width: 50px;
+            height: 50px;
+            margin: 10px 0px 20px 0px;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            background-color: slateblue;
+            color:#fff;
+            cursor: pointer;
+            margin: 30px;
+        }
+        button#add span,
+        button#rmv span{
+            font-size: 30px;
+        }
+
+        form input[type="submit"],
+        form button[type="reset"]{
+            width: 100px;
+            float: left;
+            margin-right: 20px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        form input[type="submit"]{
+            background-color: aquamarine;
+        }
+        form button[type="reset"]{
+            background-color: slateblue;
+            color:#fff;
+        }
+
+        form.center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        aside.fix{
+            display: none;
+            z-index: 99999;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 50%;
+            background-color: rgba(0, 0, 0, 0.9);
+            animation: lft 0.5s ease-in-out forwards;
+        }
+
+        .alright,
+        .error{
+            position: absolute;
+            top: 2.5%;
+            right: 5%;
+            width: 350px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 7px;
+            box-shadow: 0px 0px 10px -4px #000;
+            animation: err 5s ease-in-out forwards;
+        }
+        .alright{
+            background-color: aquamarine;
+            color: #000;
+        }
+        .error{
+            background-color: ff5b5b;
+            color:#fff;
+        }
+
+        @keyframes err{
+            0%{
+                right: 5%;
+                top: 2.5%;
+            }
+            90%{
+                right: 5%;
+                top: 2.5%;
+            }
+            100%{
+                top: -100%;
+            }
+        }
+
+        @keyframes lft{
+            0%{
+                left: -100%;
+            }
+            100%{
+                left: 0;
+            }
+        }
+
+        aside.fix h1{
+            color:#fff;
+        }
+        
+        aside.fix form input{
+            box-shadow: 0px 0px 20px -5px #000;
+            
+        }
+        
+        aside.fix form label{
+            color:#fff;
+        }
