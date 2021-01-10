@@ -13,9 +13,9 @@
 class Database
 {
 
-    private $nameDB = "re_direct"; // Nome Database
-    private $userDB = "MyHouse_US"; // Nome Utente
-    private $pswDB = "(x(P9Rw,cY\)N"; // Password Utente
+    private $nameDB = "xxxx"; // Nome Database
+    private $userDB = "xxxx"; // Nome Utente
+    private $pswDB = "xxxx"; // Password Utente
     private $host = "localhost"; // Host
 
     public $DB; // Parametro di Accesso al Database
