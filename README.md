@@ -4,7 +4,7 @@ Program functions: </br>
 Insert in the file class-database.php your DB </br> and create the table in the DB with the following characteristics:
 
 Create Table ftp_access </br>
- ID int AUTO_INCREMENT Primary Key </br>
+ <b>ID</b> int AUTO_INCREMENT Primary Key </br>
  nickname VARCHAR(60) </br>
  domain VARCHAR(255) </br>
  ftp VARCHAR(60) </br>
